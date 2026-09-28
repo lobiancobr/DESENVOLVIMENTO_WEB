@@ -1,19 +1,19 @@
 # DESENVOLVIMENTO_WEB
 Material da aula de Desenvolvimento WEB. O foco é o ensino de HTML, CSS e JS.
 
-<p>WEB101 - Introdução à Web e Evolução da Internet
+<p>WEB101 - Introdução à Web e Evolução da Internet</p>
 <p>WEB102 - xx</p>
-WEB103 - xx
-WEB104 - xx
-WEB105 - xx
-WEB106 - xx
-WEB107 - xx
-WEB108 - xx
-WEB109 - xx
-WEB110 - xx
-WEB111 - xx
-WEB112 - xx
-WEB113 - xx
-WEB114 - xx
-WEB115 - xx
+<p>WEB103 - xx</p>
+<p>WEB104 - xx</p>
+<p>WEB105 - xx</p>
+<p>WEB106 - xx</p>
+<p>WEB107 - xx</p>
+<p>WEB108 - xx</p>
+<p>WEB109 - xx</p>
+<p>WEB110 - xx</p>
+<p>WEB111 - xx</p>
+<p>WEB112 - xx</p>
+<p>WEB113 - xx</p>
+<p>WEB114 - xx</p>
+<p>WEB115 - xx</p>
 
