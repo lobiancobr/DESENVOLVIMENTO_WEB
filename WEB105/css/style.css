@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #CCCCCC;
+}
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+}
