@@ -8,7 +8,8 @@ Material da aula de Desenvolvimento WEB. O foco é o ensino de HTML, CSS e JS.
 <p>WEB105 - Imagens, Tabelas e Formulários em HTML</p>
 <p>WEB106 - Acessibilidade Web: Tornando Seu Site para Todos</p>
 <p>WEB107 - Introdução ao CSS: Cores, Fontes, Seletores e Estilização Básica</p>
-<p>WEB108 - xx</p>
+<p>WEB108 - Box Model, Classes, IDs e Organização Visual 
+com CSS</p>
 <p>WEB109 - xx</p>
 <p>WEB110 - xx</p>
 <p>WEB111 - xx</p>
