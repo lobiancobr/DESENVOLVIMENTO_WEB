@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Tio LOBIANCO</title>
+    <!-- Conexão com o Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!-- Seção 1: Identificação -->
+<header class="cabecalho">
+    <h1>Tio <span class="destaque">LOBIANCO</span></h1>
+    <img src="imagens/lobianco.jpg" alt="foto do Tio Lobianco">
+    <p class="subtitulo">
+        Professor de ADS e Jogos Digitais
+    </p>
+</header>
+
+<nav class="menu">
+<!-- Links internos: Sobre, Habilidades, Hobbies, Contato -->
+    <ul>
+        <li><a href="#sobre">Quem sou eu</a></li>
+        <li><a href="#leciono">Cursos em que leciono</a></li>
+        <li><a href="#hobbies">Meus hobbies</a></li>
+        <li><a href="#objetivo">Meu objetivo</a></li>
+        <li><a href="#sites">Sites que mais uso</a></li>
+        <li><a href="#contato">Meus contatos</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<!-- Seção 2: Quem sou eu -->
+<section id="sobre" class="card">
+    <h2>Sobre mim</h2>
+    <p>
+        Sou carioca e me formei em <strong>Informática</strong>, <strong>Matemática</strong> e <strong>Filosofia</strong>. Procuro unir tecnologia, lógica e educação para tornar o aprendizado mais significativo e próximo da realidade profissional.
+    </p>
+</section>
+
+<!-- Seção 3: Cursos em que leciono -->
+<section id="leciono" class="card">
+    <h2>Cursos em que trabalho</h2>
+    <p>
+        Leciono nos cursos de <strong>Análise e Desenvolvimento de Sistemas</strong>
+        e <strong>Jogos Digitais</strong>.
+    </p>
+</section>
+
+<!-- Seção 4: Meus hobbies -->
+<section id="hobbies" class="card">
+    <h2>Meus hobbies</h2>
+    <div class="habilidades-grid">
+        <figure class="habilidade-item">
+            <img src="imagens/linguagens.jpg" alt="Linguagens de Programação" width="150">
+            <figcaption>Linguagens de Programação</figcaption>
+        </figure>
+        <figure class="habilidade-item">
+            <img src="imagens/emergentes.webp" alt="Tecnologias emergentes" width="150">
+            <figcaption>Tecnologias emergentes</figcaption>
+        </figure>
+        <figure class="habilidade-item">
+            <img src="imagens/filmes.jpg" alt="Filmes de gêneros variados" width="150">
+            <figcaption>Filmes de gêneros variados</figcaption>
+        </figure>
+        <figure class="habilidade-item">
+            <img src="imagens/logica.jpg" alt="Jogos de lógica" width="150">
+            <figcaption>Jogos de lógica</figcaption>
+        </figure>
+    </div>
+</section>
+
+<!-- Seção 5: Meu objetivo -->
+<section id="objetivo" class="card">
+    <h2>Objetivo profissional</h2>
+    <p>
+        Levar meus alunos a se destacarem no mercado de trabalho por meio do conhecimento, da ética e da aprendizagem contínua.
+    </p>
+</section>
+
+<!-- Seção 6: Sites que mais uso -->
+<section id="sites" class="card">
+    <h2>TOP 5 Sites que mais acesso ⭐</h2>
+    <table>
+        <caption>Sites mais utilizados</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sala de Aula</td>
+                <td><a href="https://classroom.google.com/" target="_blank">Google Classroom</a></td>
+            </tr>
+            <tr>
+                <td>Fatec</td>
+                <td><a href="https://fateccarapicuiba.cps.sp.gov.br/" target="_blank">Fatec Carapicuíba</a></td>
+            </tr>
+            <tr>
+                <td>Udemy</td>
+                <td><a href="https://www.udemy.com/" target="_blank">Udemy</a></td>
+            </tr>
+            <tr>
+                <td>Beecrowd</td>
+                <td><a href="https://judge.beecrowd.com/pt" target="_blank">Beecrowd</a></td>
+            </tr>
+            <tr>
+                <td>Itch.io</td>
+                <td><a href="https://itch.io/" target="_blank">Itch.io</a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Seção 7: Meu contato -->
+<section id="contato" class="card">
+    <h2>Meus contatos</h2>
+    <ul>
+        <li>
+            <a href="https://github.com/lobiancobr/" target="_blank">
+                Meu GitHub
+            </a>
+        </li>
+        <li>
+            <a href="https://lobiancobr.itch.io/" target="_blank">
+                Meu Itch.io
+            </a>
+        </li>
+        <li>
+            <a href="mailto:jose.lobianco@cps.sp.gov.br">
+                Escreva para mim
+            </a>
+        </li>
+    </ul>
+</section>
+
+<!-- Seção 8: Formulário para contato -->
+<section id="contato-form" class="card">
+    <h2>Entre em contato</h2>
+    <form>
+        <label for="nomeContato">Nome</label>
+        <input type="text"
+               id="nomeContato"
+               name="nomeContato"
+               placeholder="Digite seu nome"
+               required>
+
+        <label for="emailContato">E-mail</label>
+        <input type="email"
+               id="emailContato"
+               name="emailContato"
+               placeholder="Digite seu e-mail"
+               required>
+
+        <label for="telefone">Telefone</label>
+        <input type="tel"
+               id="telefone"
+               placeholder="(11) 99999-9999">
+
+        <label for="data">Data preferencial</label>
+        <input type="date" id="data">
+
+        <label for="assuntoSelect">Assunto</label>
+        <select id="assuntoSelect">
+            <option>Dúvida sobre curso</option>
+            <option>Sugestão</option>
+            <option>Orçamento</option>
+        </select>
+
+        <label for="mensagemContato">Mensagem</label>
+        <textarea
+            id="mensagemContato"
+            rows="5"
+            placeholder="Digite sua mensagem aqui...">
+        </textarea>
+
+        <button type="submit" class="botao">
+            Enviar mensagem
+        </button>
+    </form>
+</section>
+
+<!-- Curiosidades sobre mim -->
+<aside>
+    <h3>Curiosidades sobre mim 📌</h3>
+    <p>
+        Trabalhei como ator e diretor de teatro, operador industrial em refinaria,
+        desenvolvedor de sistemas e caseiro em sítios.
+        Toda experiência profissional possui valor e contribui para nosso crescimento pessoal e profissional.
+    </p>
+</aside>
+
+</main>
+
+<footer>
+    <!-- Seu nome + ano atual -->
+    <a href="mailto:jose.lobianco@cps.sp.gov.br">
+        @José Luís Barboza Lobianco
+    </a>
+    - 2026
+</footer>
+
+</body>
+</html>
